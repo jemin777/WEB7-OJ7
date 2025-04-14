@@ -203,13 +203,7 @@ greater than web1.0 programming langauge.
 
 WEB7.0(OJ7) is not a competitor to other programming
 
-language.It's the competitor thought to attack
-
-WEB7.0(OJ7). Because they don't like God jehovah,
-
-Holysprit, and Lord Jesus christ.So Devil children
-
-will always behave like this,and don't talk or believe them.
+language.
 WEB7.0(OJ7) is my 3rd wisdom given by Lord jesus christ to me.
 
 From this we understood WEB7.0(OJ7)P.L did not have any limitations.
