@@ -215,6 +215,17 @@ WEB7.0(OJ7) is my 3rd wisdom given by Lord jesus christ to me.
 From this we understood WEB7.0(OJ7)P.L did not have any limitations.
 
 
+Who can  focus   WEB7.0(OJ7) ?
+===============================
+
+Only   Web7(OJ7) , Java/J2ee , C# ,C/C++ , Google professionals can
+follow  it. So WEB7.0(OJ7) is the common Programming Language 
+for the  Professionals that i mentioned above.
+
+
+
+
+
  ABOUT  WEB7.0(OJ7) with MachineLearning and  Datascience History
 ==============================================================
 
@@ -347,7 +358,7 @@ This Web7.0 tutorial is  GNU GPL3 licensed.
 
 For Web7.0 Programming Language tutorial  see :
 
-https://sites.google.com/view/oakjava7programminglanguage
+[https://sites.google.com/view/oakjava7programminglanguage](https://sites.google.com/view/web70-oj7programminglanguage/home)
 
 About the Web7.0 Programming Language
 =========================================
