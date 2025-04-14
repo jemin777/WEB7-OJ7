@@ -358,7 +358,7 @@ This Web7.0 tutorial is  GNU GPL3 licensed.
 
 For Web7.0 Programming Language tutorial  see :
 
-[https://sites.google.com/view/oakjava7programminglanguage](https://sites.google.com/view/web70-oj7programminglanguage/home)
+[https://sites.google.com/view/web70-oj7programminglanguage/home](https://sites.google.com/view/web70-oj7programminglanguage/home)
 
 About the Web7.0 Programming Language
 =========================================
