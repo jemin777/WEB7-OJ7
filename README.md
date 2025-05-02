@@ -394,9 +394,94 @@ Pure OOPS Programming Language.WEB7.0(OJ7) saves  time and  cost
 and Web7.0 is a highest securable programming language.
 WEB7.0(OJ7) will compile and run the WEB7.0(OJ7) program
 at the same time. but Java(Jdk1.8) can't do it.
+<br>
+<u> <B>
+Why WEB7.0(OJ7) Programming Language is a Standard Programming Language?
+</u><B><BR>
 
 
+Because there are more Util packages when compared to all
 
+Programming languages. It have advanced UTIL Packages.
+
+Web7.0(Oj7) is a pure OOPS ie) It contains all
+
+the OOPS concepts where No Programming Language have 
+
+pure oops.Web7.0 Security is made in CH$. It is
+
+easy to focus and it saves time and  cost. But only sub
+
+programming language in Web7.0(OJ7) P.L is invented in Java. 
+
+WEB7.0(OJ7)programming Language has more advantages than all
+
+the programming languages in the World. Hackers or
+
+other Research ,etc can copy the features of WEB7.0(OJ7).
+
+That's why Remaining 70% of WEB7(OJ7) P.L features is hidden and kept confidental.
+
+Many Programming Languages failed in security side.
+
+But  WEB7.0(OJ7) Programming Language provide
+
+high Security for WEB7.0(OJ7) Programming Language,  Java.
+
+And it is used with new concept Remote X Application.
+
+That concept is  hidden from this Hackers, etc.
+
+Where Other Programming Languages don't have
+
+all this Advantages. So without Installing Jdk compiler 
+
+WEB7.0 compiler will compile and Run the Web7.0(Oj7) programs.
+
+<br>
+<B>What is the  purpose of Scroll Server ?  Is  Web7(OJ7) is the competitor
+of   java,etc ? How WEB7(OJ7) becomes the Interactive Programming Language ?
+</B> <br>
+
+Web7(OJ7) not the competitors of my SIT field members
+
+like Java,Python,etc.I created WEB7(Oj7)
+
+programming Language as  a Interactive(friendly) Program
+
+language for Java.And WEB8(OJ7) for C# and Python.
+
+ Web7(Oj7)  program did not accept
+
+java framework because java/J2ee framework is written Jd1.8 and other
+
+java higher versions.But We use Scrollserver to accept  Web7(Oj7)
+
+programming Language and Java/J2ee Framework like 
+
+Hibernate,Spring,MyBatics,Jdk1.8,any java versions , And  Enterprise application like
+
+ EJB , and  JMS.
+
+ie) The Java/j2ee Framework having main method will
+be executed using scroll server.This is  because Java is invented in OAK.
+But Web7(OJ7) is invented in Dotweb3.0 ,CH$. But the minicompiler called OJ7 is
+invented in Java.Here in class file for  Web7(OJ7) and Java is
+entirely different and it is not suitable. Forget about this
+We will use ScrollServer, In the ScrollServer we can use two 
+compilers at a time. ie) We can use Web7(OJ7) and Java compiler 
+at same time.Example for this is i have given a Web7(OJ7) Samples.
+See Sample-2 Web7(OJ7) with hibernate.And read it carefully.
+Here  Web7(OJ7) and Java compiler is used at same time.
+
+By this way only we can solve this problem.And ScrollServer is  created
+in  Web7(OJ7).So by using this Hibernate,Java Spring,EJB,JMS 
+Mybatics, any java versions or jdk1.8 can be run
+using scrollserver.
+So this way we can  combine Web7(Oj7) P.L,OJ7UA framework and Java/J2ee framework 
+to one Project WEB application. So without reinventing and modifying
+code for Jdk1.8 we can use both WEB7(Oj7) and Java and  its frameworks
+at the same time.
 
 
 
