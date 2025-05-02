@@ -1,4 +1,4 @@
-Web7.0 Tutorial
+WEB7(OJ7) Tutorial
 ===========================
 
 Web7.0 Programming Language is  invented by  wilmix jemin  j  at  year  2013,2016 in  java(jdk1.6) ,DOTWEB3.0. 
