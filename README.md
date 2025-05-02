@@ -394,11 +394,12 @@ Pure OOPS Programming Language.WEB7.0(OJ7) saves  time and  cost
 and Web7.0 is a highest securable programming language.
 WEB7.0(OJ7) will compile and run the WEB7.0(OJ7) program
 at the same time. but Java(Jdk1.8) can't do it.
-<br>
+<HR>
+<br><br><br><br>
 <u> <B>
 Why WEB7.0(OJ7) Programming Language is a Standard Programming Language?
 </u><B><BR>
-
+<br><br>
 
 Because there are more Util packages when compared to all
 
@@ -437,11 +438,13 @@ Where Other Programming Languages don't have
 all this Advantages. So without Installing Jdk compiler 
 
 WEB7.0 compiler will compile and Run the Web7.0(Oj7) programs.
-
+<HR>
 <br>
 <B>What is the  purpose of Scroll Server ?  Is  Web7(OJ7) is the competitor
 of   java,etc ? How WEB7(OJ7) becomes the Interactive Programming Language ?
 </B> <br>
+
+<HR>
 
 Web7(OJ7) not the competitors of my SIT field members
 
@@ -483,7 +486,7 @@ to one Project WEB application. So without reinventing and modifying
 code for Jdk1.8 we can use both WEB7(Oj7) and Java and  its frameworks
 at the same time.
 
-
+<HR>
 
 Who may  focus Web7.0(OJ7) ?
 ==================================
