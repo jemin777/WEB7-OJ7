@@ -395,10 +395,12 @@ and Web7.0 is a highest securable programming language.
 WEB7.0(OJ7) will compile and run the WEB7.0(OJ7) program
 at the same time. but Java(Jdk1.8) can't do it.
 <HR>
-<br><br><br><br>
+<br><br><br><br><h2></h2>
 <u> <B>
 Why WEB7.0(OJ7) Programming Language is a Standard Programming Language?
-</u><B><BR>
+</u><B>
+ </h2>
+ <BR>
 <br><br>
 
 Because there are more Util packages when compared to all
@@ -440,9 +442,10 @@ all this Advantages. So without Installing Jdk compiler
 WEB7.0 compiler will compile and Run the Web7.0(Oj7) programs.
 <HR>
 <br>
+<h1>
 <B>What is the  purpose of Scroll Server ?  Is  Web7(OJ7) is the competitor
 of   java,etc ? How WEB7(OJ7) becomes the Interactive Programming Language ?
-</B> <br>
+</B></h1> <br>
 
 <HR>
 
