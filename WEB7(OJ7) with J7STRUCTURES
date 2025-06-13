@@ -1,0 +1,395 @@
+================================================================================
+
+                  Sample -1: MultiNomial Distribution using Web7(OJ7) with Web7(Oj7) 
+
+                  Advanced Structures for MachineLearning 
+
+
+================================================================================
+
+
+About MultiNomial Distribution
+==============================
+
+The multinomial distribution is a multivariate generalization of the binomial distribution. 
+
+Consider a trial that results in exactly one of some fixed finite number k of possible outcomes,
+
+ with probabilities p1, p2, … , pk (so that pi ≥ 0 for i = 1, … , k and ∑i=1kpi=1), and there are 
+
+n independent trials. Then let the random variables Xi indicate the number of times outcome number
+
+ i was observed over the n trials. Then X = (X1, X2, … , Xk) follows a multinomial distribution with parameters n and p,
+
+ where p =(p1, p2, … , pk). An example where a multinomial random variable could occur is during the throw of a dice.
+
+ Let Xi, i = 1, 2, … , 6, denote the number of times i is observed in n throws of a dice. Then X = (X1, X2, … , X6) 
+
+has a multinomial distribution. If the dice is fair, then pi=16 for all i.
+
+
+The PMF of the multinomial distribution is given by
+
+
+PX1=x1,X2=x2,…,Xk=xk=(n!/(x1!x2!…xk!)) * (p1^ x1* p2^x2 ⋯pk^xk)
+
+
+where ∑i=1kxi=n. If k = 2, the multinomial distribution becomes a binomial distribution with n trials and success probability p1. 
+
+When X = (X1, X2, …, Xk) follows a multinomial distribution with the PMF given above, Xi follows a binomial distribution with n
+
+ trials and success probability pi. Hence, the mean and variance of Xi are npi and npi(1 − pi), respectively. The covariance 
+
+between Xi and Xj is −npipj.The maximum likelihood estimate of pi for a multinomial distribution is the ratio of the sample mean of xi's and n.
+
+
+
+
+Three card players play a series of matches. The probability that player A will win any game is 20%,
+
+ the probability that player B will win is 30%, and the probability player C will win is 50%. If they play 6 games,
+
+ what is the probability that player A will win 1 game, player B will win 2 games, and player C will win 3?
+
+
+Use the following formula to calculate the odds :
+
+multinomial formulae..
+
+
+
+PX1=x1,X2=x2,…,Xk=xk=(n!/(x1!x2!…xk!)) * (p1^ x1* p2^x2 ⋯pk^xk)
+
+
+
+where:
+
+
+n = number of events
+
+x1 = number of outcomes, event 1
+
+x2 = number of outcomes, event 2
+
+x3 = number of outcomes, event x
+
+p1 = probability event 1 happens
+
+p2 = probability event 2 happens
+
+px = probability event x happens
+
+Using the data from the question, we get:
+
+
+n = 12 (6 games total).
+
+x1 = 1 (Player A wins).
+
+x2 = 2 (Player B wins).
+
+x3 = 3 (Player C wins).
+
+p1 = 0.20 (probability that Player A wins).
+
+p2 = 0.30 (probability that Player B wins).
+
+p3 = 0.50 (probability that Player C wins).
+
+
+Putting this into the formula, we get:  multinomial distribution
+
+
+
+P(x1=1,x2=2,x3=3) = (6!/(1! * 2! * 3!)) * ((0.2 ^ 1) * (0.3 ^ 2) * (0.5 ^ 3)) = 0.135
+
+
+
+The Web(OJ7) program  for the Multinomial Distribution is given below....
+
+
+Web(OJ7) Program
+
+
+
+multinomialdistsample.web
+=========================
+
+
+<WEB>  
+
+<WNOSQL> 
+
+  <USE>  J7Distribution; 
+
+   <PACK>  Distribution {     
+
+    <CLASS>  multinomialdist {     
+
+    public static void display() {  
+
+<J7ARRAYLIST> xn= new <J7ARRAYLIST>();
+
+xn.add(0,1); xn.add(1,2); xn.add(2,3);
+
+<J7ARRAYLIST> pn= new <J7ARRAYLIST>();
+
+pn.add(0,0.2); pn.add(1,0.3); pn.add(2,0.5);
+
+double x=J7Distribution.J7PlotGraph.MULTINOMIALResult(pn,xn,6);
+
+
+<J7ARRAYLIST> result= new <J7ARRAYLIST>();
+
+
+<STRUCTURE> list = new <STRUCTURE> ("sample");
+
+
+
+list.add(1);list.add(x);
+
+
+list.add(2); list.add(x); 
+
+
+list.add(3); list.add(x); 
+
+
+//result ArrayList
+
+
+result.add(0,"'A'");
+
+
+result.add(1,"'B'");
+
+   HTML.displayhtml("MBarcharts1.html");
+
+<PRINTLN>("[");
+
+<PRINTLN>(result);
+
+<PRINTLN>(",");
+
+for (int i=2;i<list.size();i+=2)
+
+{
+
+<PRINTLN>("[");
+
+<PRINTLN>(i-1);
+
+<PRINTLN>(",");
+
+<PRINTLN>(list.ret(i));
+
+if (i < list.size())
+
+<PRINTLN>("],");
+
+else if (i ==list.size())
+
+<PRINTLN>("]");
+
+
+}
+
+<PRINTLN>("]");
+
+ HTML.displayhtml("MBarcharts2.html");
+
+   }       
+
+ public void main()  
+
+   { display();    }   }  
+
+
+ } 
+
+Explanation
+
+We  are  adding 1,2,3 in the J7ArrayList xn.
+
+where xn represent Xn values...
+
+ 
+
+
+<J7ARRAYLIST> xn= new <J7ARRAYLIST>();
+
+
+xn.add(0,1); xn.add(1,2); xn.add(2,3);
+
+
+
+We  are  adding 0.2,0.3,0.5 in the J7ArrayList pn
+
+
+where pn represent Probability values...
+
+
+<J7ARRAYLIST> pn= new <J7ARRAYLIST>();
+
+
+pn.add(0,0.2); pn.add(1,0.3); pn.add(2,0.5);
+
+
+Now  here 
+
+
+double x=J7Distribution.J7PlotGraph.MULTINOMIALResult(pn,xn,6);
+
+
+This means  J7Distribution represent the Distribution package
+
+
+and  J7PlotGraph is the common class for distribution.
+
+
+For Multinomial Dsistribution you must use the method...
+
+
+MULTINOMIALResult(pn,xn,6);
+
+
+where pn represent the probability
+
+where xn represent Xn values
+
+And  N represent N trials.
+
+
+
+Now <J7ARRAYLIST> result= new <J7ARRAYLIST>();
+
+we are  adding two values which is (A,B) in to J7ArrayList  result.
+
+
+
+Limitations of  C Structures
+
+->The C structure does not allow the struct data type to be treated like built-in data types.
+
+-> We cannot use operators like +,- etc. on Structure variables.
+
+-> No Data Hiding: C Structures do not permit data hiding. Structure members can be accessed by any function, anywhere in the scope of the Structure.
+
+->Functions inside Structure: C structures do not permit functions inside the Structure
+
+-> Static Members: C Structures cannot have static members inside their body
+
+->Access Modifiers: C Programming language does not support access modifiers. So they cannot be used in C Structures.
+
+->Construction creation in Structure: Structures in C cannot have a constructor inside Structures.
+
+When we compare ( C/C++ or Other Programming languages ) with WEB7(OJ7) Programming language  
+
+All failed.
+
+
+Why ?
+
+
+Because even C# follow C type Data Structure  STRUCTURE,
+
+Storing many data in C type Structure makes C Type
+
+allocation memory goes down.
+
+
+So when are dealing with more datas like
+
+["SNO","NAME","Country","ADDRESS","JOB","SALARY"]
+
+Here JSON fails,Any type of webservice fails
+
+and it will bring more complex to implement using Java or Python
+
+and  store the datas. It requires more lines of code to implement.
+
+
+ But WEB7(OJ7) STRUCTURE is not like that When this type of 6 or  100  or  1000,etc any column datas  are  focused we can store the  data and  easily we  can seperate  using  J7 for loop. This  is  the  END of C/C++. 
+
+eg)  ["SNO","NAME","Country","ADDRESS","JOB","SALARY","A","B","C" ,"D".... so on ]
+
+values are [[1,2,3,4,5,6,7,8,9,10],[1,23,24,25,26,28,2,20,10,9], etc]
+
+Now  we  can  see  J7Structure is very  simple  and easy to learn or use....
+
+And  we can  simplify any complex data  with any rows and  columns. So i ask all professionals 
+
+to focus it.This J7STRUCTURE is implemented in year Nov 2018 by Wilmix jemin j.
+
+
+J7Structure removes all the  limitations where  C/C++
+
+have.And we see that J7Structure is the Advanced Data Structures
+
+defeating C/C++.So J7Structure is userfriendly  datastructure.
+
+And it is  easy to focus...
+
+Now we  are adjusting  our datastructure when we
+
+use  J7Structure....
+
+
+<PRINTLN>("[");
+
+<PRINTLN>(result); // Here we are printing the result arraylist
+
+<PRINTLN>(",");
+
+for (int i=2;i<list.size();i+=2) // I value is incremented by 2 due to two columns present according to the requirements.
+
+{
+
+<PRINTLN>("[");
+
+<PRINTLN>(i-1); // i-1 is to use X value as  1,2,3 ---etc. 
+
+<PRINTLN>(",");
+
+<PRINTLN>(list.ret(i));// J7Structure values can be retrieved using list.ret(i)
+
+if (i < list.size()) // we are checking the size, if i < size then print "]," otherwise print "]" only.
+
+<PRINTLN>("],");
+
+else if (i ==list.size())
+
+<PRINTLN>("]");
+
+
+}
+
+
+<PRINTLN>("]");//close the final special character "]" .
+
+
+Like this we  can optimize our code using WEB7(OJ7) Machine Learning
+
+technique -> J7Structures.
+
+So  other  type  WEB7(OJ7) datastructures like Heap,
+
+EXTEND, LARRAY, etc are  also advanced like J7Structure.
+
+
+So this type of Advanced dataStructures like J7Structures, EXTEND,LARRAY,etc
+
+are invented by Wilmix Jemin  in  WEB7(OJ7) Programming Language itself.
+
+So this WEB7(OJ7) datastructures is  a versalite datastructures....
+
+So WEB7(OJ7) is  a Versalite and Advanced High level programming Language..
+
+The Output Graph for the MultiNomial Distribution are given below...
+
+Note: like wise many  WEB7(OJ7) DataStructures are found at WEB(OJ7) Enterprise Edition.
+
+
+Output
+
+
