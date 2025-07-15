@@ -16,7 +16,9 @@ want to copy all my features in their research product and they will implement i
  It  also  supports obfuscation, Code Security, and it  is Learnable.It is  easy to learn.
 OJ7   means   Jemin  Advanced  Virtual  Application.
 OJ7   is  even   Advanced   than  Python Programming  language and  all programming Languages.
-Web7.0(OJ7) Linux version  is  implemented  in  C/C++, Java,Dotweb3.0 at  year  2021.  
+Web7.0(OJ7) Linux version  is  implemented  in  WebJ7(OJ7), Java,Dotweb3.0 at  year  2021.  
+Because C/C++ is  vulnerable to hackers when  used  in miltary or any business side. 
+That's why  Web7.0(OJ7) Linux version is  implemented  in  WebJ7(OJ7) itself.
 
 
 
