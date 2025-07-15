@@ -3,8 +3,7 @@ WEB7(OJ7) Tutorial
 
 Web7.0 Programming Language is  invented by  wilmix jemin  j  at  year  2013,2016 in  java(jdk1.6) ,DOTWEB3.0. 
 and Web7.0(OJ7) is  a World Rank A' Programming Language and  it  is   focused  on   creating  DataStructures,Console Application with Wnosql DB, and used  in  web application and Used in Remote X application  and  it  has  Advanced Oops.But Web7.0(OJ7) windows application is  present in JDollarShell
- not present in WEB7.0(OJ7). WEB7.0(OJ7) has Advanced concept like Bucket,Extend,etc. But in JdollarShell only J$Shell GUI,Graphics are found. Remote X application is Advanced than Python,Webapplication,and all programming Languages.So Say Good bye to olden web application. Oakjava7 is otherwise known as  OJava7 or WEB7(OJ7). In order to differ JAVA 
- and  OakJava7 , that's why  Oakjava7 is renamed  as WEB7(Oj7) in 2025.
+ not present in WEB7.0(OJ7). WEB7.0(OJ7) has Advanced concept like Bucket,Extend,etc. But in JdollarShell only J$Shell GUI,Graphics are found. Remote X application is Advanced than Python,Webapplication,and all programming Languages.So Say Good bye to olden web application. Oakjava7 is otherwise known as  OJava7 or WEB7(OJ7). In order to differentiate names for JAVA  and  OakJava7 , that's why  Oakjava7 is renamed  as WEB7(Oj7) in 2025 by Wilmix Jemin J
  
 
  
